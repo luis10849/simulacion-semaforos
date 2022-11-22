@@ -35,9 +35,7 @@ public class CarroThread implements Runnable {
 			    } else {
 			    	if(semaforo.numColor == 2 || semaforo.numColor == 1 && semaforo.oldColor == 2){
 			    		this.moverse();
-			    	} 
-			    	
-			    	
+			    	}   	
 			    }
 				
 				
